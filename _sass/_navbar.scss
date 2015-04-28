@@ -2,12 +2,16 @@
 .navbar-default {
   .navbar-header {
     #logo {
+      text-transform: uppercase;
+
       #crowd {
         color: $blue;
       }
 
       #wise {
         color: $green;
+        font-style: italic;
+        font-weight: bold;
       }
     }
 
