@@ -1,0 +1,14 @@
+# Setup
+title:                CrowdWise
+tagline:              "Automated Strategic Consulting"
+description:          "An automated strategic consulting platform capitalizing on the wisdom of the crowd for large companies and organizations."
+url:                  http://getcrowdwise.com
+baseurl:              ""
+
+permalink:            pretty
+
+timezone:             America/New_York
+
+sass:
+  sass_dir:           _sass
+  style:              compressed
