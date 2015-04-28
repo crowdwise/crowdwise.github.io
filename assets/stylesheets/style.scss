@@ -24,15 +24,14 @@
 
   ul {
     list-style: none;
-    font-size: 1.25em;
-    line-height: 2em;
+    line-height: 1.75em;
     padding: 0px;
     padding-bottom: 15px;
 
     li:before {
       content: "+ ";
       color: $blue;
-      font-size: 1.5em;
+      font-size: 1.25em;
     }
   }
 }
