@@ -3,13 +3,14 @@
   .navbar-header {
     #logo {
       text-transform: uppercase;
+      color: $green;
 
       #crowd {
-        color: $blue;
+        // color: $blue;
       }
 
       #wise {
-        color: $green;
+        // color: $green;
         font-style: italic;
         font-weight: bold;
       }
