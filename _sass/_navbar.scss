@@ -1,0 +1,59 @@
+// update navbar styling
+.navbar-default {
+  .navbar-header {
+    #logo {
+      #crowd {
+        color: $blue;
+      }
+
+      #wise {
+        color: $green;
+      }
+    }
+
+    #tagline {
+      margin-left: 0;
+      padding-top: 3px;
+    }
+
+    .navbar-toggle {
+      @include navbar-vertical-align(40px);
+      border-radius: 0;
+
+      i {
+        color: $navbar-default-color;
+      }
+    }
+  }
+
+  .navbar-nav {
+    // make active menu items bold
+    >.active>a {
+      &,
+      &:hover,
+      &:focus {
+        border-bottom: 2px solid $red;
+        font-weight: 600;
+      }
+    }
+    >li>a {
+      text-transform: uppercase;
+      border-bottom: 2px solid transparent;
+      &:hover,
+      &:focus {
+        border-bottom: 2px solid $red;
+      }
+    }
+  }
+}
+
+// make logo a bit bigger and add some more padding
+.navbar-brand {
+  font-size: $font-size-logo;
+  padding-right: 20px;
+}
+
+// button padding
+.navbar-btn {
+  padding: 0 5px;
+}

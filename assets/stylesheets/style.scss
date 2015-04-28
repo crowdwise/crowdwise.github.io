@@ -1,0 +1,38 @@
+---
+# Comment for Jekyll
+---
+
+// Imports
+// Fonts
+@import url("http://fonts.googleapis.com/css?family=Inconsolata|Roboto+Slab|Roboto:300,400,400italic,700");
+@import "font-awesome/scss/font-awesome";
+
+// Variables & Bootstrap
+@import "variables";
+@import "bootstrap";
+
+// Other partials
+@import "flatten";
+@import "navbar";
+@import "footer";
+
+// Homepage Styles
+.front-bullets {
+  h2 {
+    color: $blue;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 1.25em;
+    line-height: 2em;
+    padding: 0px;
+    padding-bottom: 15px;
+
+    li:before {
+      content: "+ ";
+      color: $blue;
+      font-size: 1.5em;
+    }
+  }
+}
