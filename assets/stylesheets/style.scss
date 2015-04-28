@@ -16,6 +16,11 @@
 @import "navbar";
 @import "footer";
 
+// Layout styles
+.main-content {
+  min-height: 600px;
+}
+
 // Homepage Styles
 .front-bullets {
   h2 {
