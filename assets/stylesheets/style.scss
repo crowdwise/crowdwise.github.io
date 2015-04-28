@@ -1,5 +1,4 @@
 ---
-# Comment for Jekyll
 ---
 
 // Imports
@@ -21,6 +20,24 @@
   min-height: 600px;
 }
 
+// Alert styles
+// Use alert color for links and underline to distinguish them
+.alert {
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+// default to hidden
+#alerts .alert {
+  display: none;
+}
+
 // Homepage Styles
 .front-bullets {
   h2 {
@@ -39,5 +56,16 @@
       color: $blue;
       font-size: 1.5em;
     }
+  }
+}
+
+#call-to-action {
+  border-color: $purple;
+  border-width: 2px;
+  color: $purple;
+
+  &:hover {
+    color: white;
+    background-color: $purple;
   }
 }
