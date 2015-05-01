@@ -3,34 +3,50 @@ layout: page
 title: "home"
 ---
 
-<div id="alerts">
-  <div class="alert alert-dismissable alert-success" id="contact-flash">
-    <button class="close" type="button" data-dismiss="alert" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-    <p>Thanks for your message, we'll get back to you soon!</p>
+<div class="col-md-12">
+  <div id="alerts">
+    <div class="alert alert-dismissable alert-success" id="contact-flash">
+      <button class="close" type="button" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <p>Thanks for your message, we'll get back to you soon!</p>
+    </div>
+    <div class="alert alert-dismissable alert-success" id="referral-flash">
+      <button class="close" type="button" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <p>Thanks for your referral, we'll follow up and let you know if you earn your reward!</p>
+    </div>
   </div>
-  <div class="alert alert-dismissable alert-success" id="referral-flash">
-    <button class="close" type="button" data-dismiss="alert" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-    <p>Thanks for your referral, we'll follow up and let you know if you earn your reward!</p>
-  </div>
-</div>
 
-<div class="col-md-6">
-  <div class="row front-bullets">
-    <h2>Strategic Consulting Made Easy</h2>
-    <ul>
-      <li>Find accurate solutions at a fraction of the cost</li>
-      <li>Crowdsource your entire pool of employees in days</li>
-      <li>Jumpstart creativity and innovation within your organization</li>
-    </ul>
+  <div class="row">
+    <div class="col-xs-12 text-center" id="front-splash">
+      <h1>Strategic Consulting Made Easy.</h1>
+    </div>
+    <div class="col-xs-2 col-xs-offset-9">
+      <div id="front-triangle-down"></div>
+    </div>
   </div>
-  <div class="row text-center">
-    <a href="/contact" class="btn btn-primary btn-lg" id="call-to-action">Request a Free Demo</a>
+
+  <div class="row text-center front-bullets">
+    <div class="col-xs-4">
+      <div class="front-bullet">
+        <p><span class="first-word">Find</span><br> accurate solutions at a fraction of the cost</p>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <div class="front-bullet">
+        <p><span class="first-word">Crowdsource</span><br> your entire pool of employees in days</p>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <div class="front-bullet">
+        <p><span class="first-word">Jumpstart</span><br> creativity &amp; innovation within your organization</p>
+      </div>
+    </div>
   </div>
-</div>
-<div class="col-md-5 col-md-offset-1 text-center">
-  <h1>VIDEO GOES HERE</h1>
+
+  <div class="row text-center call-to-action">
+    <a href="/contact" class="btn btn-success btn-lg" id="call-to-action">Request a Free Demo</a>
+  </div>
 </div>

@@ -38,7 +38,8 @@ $light-gray: #d8d7d5;
 $red: #ff9592;
 $blue: #7cd3d8;
 $teal: #9ae0e6;
-$green: #86ea8d;
+// $green: #86ea8d;
+$green: #daed7b; // from Tanya
 $orange: #ff9376;
 $yellow: #ffc56a;
 
@@ -66,9 +67,9 @@ $body-bg: #fff;
 // $link-color: $brand-success !default;
 
 // button colors
-// $btn-color: $dark-gray;
+$btn-color: $dark-gray;
 // $btn-primary-color: $btn-color;
-// $btn-success-color: $btn-color;
+$btn-success-color: $btn-color;
 // $btn-info-color: $btn-color;
 // $btn-warning-color: $btn-color;
 // $btn-danger-color: $btn-color;
@@ -83,11 +84,11 @@ $navbar-height: 60px !default;
 $navbar-border-radius: 0 !default;
 
 $navbar-inverse-bg: $dark-gray;
-$navbar-inverse-color: $blue;
+$navbar-inverse-color: lighten($blue, 15%);
 $navbar-inverse-border: darken($navbar-inverse-bg, 10%) !default;
 
 $navbar-inverse-link-color: $navbar-inverse-color;
-$navbar-inverse-link-hover-color: lighten($navbar-inverse-color, 15%);
+$navbar-inverse-link-hover-color: darken($navbar-inverse-color, 15%);
 $navbar-inverse-link-active-color: $navbar-inverse-link-hover-color;
 $navbar-inverse-link-active-bg: transparent !default;
 
