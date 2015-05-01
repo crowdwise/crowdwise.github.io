@@ -1,12 +1,12 @@
 // Typography
 $font-family-sans-serif: "Source Sans Pro", sans-serif !default;
-$font-family-sans-alternative: "Titillium Web", serif !default;
 $font-family-serif: "Merriweather", serif !default;
+$font-family-sans-alternative: "Lato", serif !default;
 $font-family-monospace: Inconsolata, monospace !default;
 $headings-font-family: $font-family-sans-alternative !default;
 
-$font-size-base: 16px !default; // default value
-$font-size-logo: ceil(($font-size-base * 1.5)) !default; // 24px
+$font-size-base: 16px !default;
+$font-size-logo: ceil(($font-size-base * 1.75)) !default; // 24px
 
 
 // Color
