@@ -11,3 +11,5 @@ getUrlParameter = (sParam) ->
 $(document).ready ->
   if getUrlParameter("contact") == "1"
     $("#contact-flash").show()
+  if getUrlParameter("referral") == "1"
+    $("#referral-flash").show()

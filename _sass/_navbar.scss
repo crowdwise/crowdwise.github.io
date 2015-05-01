@@ -1,25 +1,27 @@
 // update navbar styling
-.navbar-default {
+.navbar-inverse {
+  // font-size: 1.05em;
+
   .navbar-header {
     #logo {
       font-family: $headings-font-family;
       text-transform: uppercase;
-      color: $purple;
+      color: white;
 
       #crowd {
-        // color: $blue;
       }
 
       #wise {
-        // color: $green;
         font-style: italic;
         font-weight: bold;
       }
     }
 
     #tagline {
-      margin-left: 0;
-      padding-top: 3px;
+      margin-left: 0px;
+      color: white;
+      line-height: 1.75em;
+      // font-size: 1.1em;
     }
 
     .navbar-toggle {
@@ -38,16 +40,16 @@
       &,
       &:hover,
       &:focus {
-        border-bottom: 2px solid $purple;
-        font-weight: 600;
+        // border-bottom: 2px solid white;
+        // font-weight: 600;
       }
     }
     >li>a {
       text-transform: uppercase;
-      border-bottom: 2px solid transparent;
+      // border-bottom: 2px solid transparent;
       &:hover,
       &:focus {
-        border-bottom: 2px solid $purple;
+        // border-bottom: 2px solid white;
       }
     }
   }

@@ -17,7 +17,19 @@
 
 // Layout styles
 .main-content {
+  margin-bottom: 30px;
   min-height: 600px;
+}
+
+// Form styles
+form {
+  fieldset>legend {
+    text-align: center;
+  }
+
+  .form-actions {
+    text-align: center;
+  }
 }
 
 // Alert styles
@@ -39,33 +51,49 @@
 }
 
 // Homepage Styles
-.front-bullets {
-  h2 {
-    color: $blue;
-  }
+.landing {
+  margin-top: 25px;
 
-  ul {
-    list-style: none;
-    line-height: 1.75em;
-    font-size: 1.1em;
-    padding: 0px;
-    padding-bottom: 15px;
-
-    li:before {
-      content: "+ ";
+  .front-bullets {
+    h2 {
       color: $blue;
-      font-size: 1.5em;
+    }
+
+    ul {
+      list-style: none;
+      line-height: 1.75em;
+      font-size: 1.1em;
+      padding: 0px;
+      padding-bottom: 15px;
+
+      li:before {
+        content: "+ ";
+        color: $blue;
+        font-size: 1.5em;
+      }
     }
   }
 }
 
-#call-to-action {
-  border-color: $purple;
-  border-width: 2px;
-  color: $purple;
 
-  &:hover {
-    color: white;
-    background-color: $purple;
-  }
+
+// #call-to-action {
+//   border-color: $blue;
+//   border-width: 2px;
+//   color: $blue;
+
+//   &:hover {
+//     color: white;
+//     background-color: $blue;
+//   }
+// }
+
+// Contact Styles
+#contact-form {
+  margin-top: 25px;
+}
+
+// Referral Styles
+#referral-form {
+  margin-top: 25px;
 }

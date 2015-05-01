@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="container main-content">
-  <div class="row">
+  <div class="row{% if page.title == 'home' %} landing{% endif %}">
     {% if page.title != "home" %}
       <div class="page-header">
         <h1>{{ page.title }}</h1>

@@ -3,4 +3,50 @@ layout: page
 title: Refer Us
 ---
 
-<h4>Referral form goes here!</h4>
+<div class="row">
+  <div class="col-md-5 col-sm-4">
+    <h3>Earn up to $3,000! Refer a new client to CrowdWise.</h3>
+    <p>Let us know about a company with 200+ employees that could use internal crowdfunding markets to find better strategic solutions.</p>
+    <p>We'll make sure that you reap the rewards when they sign up and run their first market.</p>
+  </div>
+  <div class="col-md-6 col-md-offset-1 col-sm-8">
+    <form action="//formspree.io/crowdwise@outlook.com" method="POST" id="referral-form">
+      <input type="hidden" name="_next" value="//getcrowdwise.com/?referral=1">
+      <input type="hidden" name="_subject" value="CrowdWise Referral Form Submission">
+      <input type="text" name="_gotcha" style="display:none" />
+      <fieldset>
+        <legend>Referral Info</legend>
+        <div class="form-group">
+          <input type="text" class="form-control" id="contact-name" name="contact_name" placeholder="Their Name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="contact-email" name="contact_email" placeholder="Their E-mail">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="contact-phone" name="contact_phone" placeholder="Their Phone #">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="company-name" name="company_name" placeholder="Company Name">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="company-size" name="company_size" placeholder="Company Size">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Your Info</legend>
+        <div class="form-group">
+          <input type="text" class="form-control" id="referrer-name" name="referrer_name" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="referrer-email" name="_replyto" placeholder="Your E-mail">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="referrer-phone" name="referrer_phone" placeholder="Your Phone #">
+        </div>
+      </fieldset>
+      <div class="form-actions">
+        <button type="Submit" class="btn btn-primary btn-lg">Refer Now</button>
+      </div>
+    </form>
+  </div>
+</div>
