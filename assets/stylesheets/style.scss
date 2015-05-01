@@ -62,7 +62,7 @@ form {
     ul {
       list-style: none;
       line-height: 1.75em;
-      font-size: 1.1em;
+      // font-size: 1.1em;
       padding: 0px;
       padding-bottom: 15px;
 
@@ -87,6 +87,11 @@ form {
 //     background-color: $blue;
 //   }
 // }
+
+// About Us Page
+#about-us {
+  text-align: justify;
+}
 
 // Contact Styles
 #contact-form {
