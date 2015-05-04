@@ -3,7 +3,7 @@
 
 // Imports
 // Fonts
-@import url("http://fonts.googleapis.com/css?family=Inconsolata|Titillium+Web|Merriweather|Lato:300,400,400italic,700");
+@import url("http://fonts.googleapis.com/css?family=Inconsolata|Merriweather|Lato|Source+Sans+Pro:300,400,400italic,700");
 @import "font-awesome/scss/font-awesome";
 
 // Variables & Bootstrap
@@ -61,7 +61,7 @@ form {
   // margin-left: 15px;
 
   h1 {
-    font-size:  floor(($font-size-base * 2.75)); // 44px
+    font-size:  floor(($font-size-base * 3)); // 42px
     line-height: 1;
     margin-top: 43px;
     margin-bottom: 43px;
@@ -159,7 +159,7 @@ form {
   // margin-left: 15px;
 
   h1 {
-    font-size:  floor(($font-size-base * 2.75)); // 44px
+    font-size:  floor(($font-size-base * 3)); // 42px
     line-height: 1;
     margin-top: 43px;
     margin-bottom: 43px;
