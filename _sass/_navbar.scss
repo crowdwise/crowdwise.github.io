@@ -1,7 +1,5 @@
 // update navbar styling
 .navbar-inverse {
-  // font-size: 1.05em;
-
   .navbar-header {
     #logo {
       font-family: $headings-font-family;
@@ -17,19 +15,12 @@
       }
     }
 
-    #tagline {
-      margin-left: 0px;
-      color: white;
-      line-height: 1.75em;
-      // font-size: 1.1em;
-    }
-
     .navbar-toggle {
       @include navbar-vertical-align(40px);
       border-radius: 0;
 
       i {
-        color: $navbar-default-color;
+        color: $navbar-inverse-color;
       }
     }
   }
