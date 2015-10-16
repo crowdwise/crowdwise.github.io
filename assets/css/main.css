@@ -76,7 +76,7 @@ html, body
 
 body
 {
-    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -170,7 +170,8 @@ a img
 
 h1, h2, h3, h4, h5, h6
 {
-    font-weight: 200;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #555;
 }
 
